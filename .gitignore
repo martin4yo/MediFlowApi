@@ -1,0 +1,18 @@
+# Ignorar el archivo .env que contiene variables sensibles
+.env
+
+# Ignorar los archivos de bases de datos locales
+*.sqlite3
+
+# Ignorar archivos de migración de Django
+**/migrations/*
+!**/migrations/__init__.py
+
+# Ignorar archivos compilados de Python
+**/__pycache__/*
+*.pyc
+*.pyo
+*.pyd
+
+# Configuración de entornos virtuales
+venv/
