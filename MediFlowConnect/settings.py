@@ -48,9 +48,9 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'AxiomaConnect.middlewares.LogRequestMiddleware',
+    'MediFlowConnect.middlewares.LogRequestMiddleware',
     'corsheaders.middleware.CorsMiddleware',
-    'AxiomaConnect.middlewares.DynamicCORSHeadersMiddleware', 
+    'MediFlowConnect.middlewares.DynamicCORSHeadersMiddleware', 
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -67,7 +67,7 @@ CORS_ALLOWED_ORIGIN_REGEXES = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://erp.axiomacloud.com",  # Dominio desde donde harás las peticiones
+    "https://erp.mediflow.com",  # Dominio desde donde harás las peticiones
 ]
 
 CORS_ALLOW_METHODS = [
@@ -86,7 +86,7 @@ CORS_ALLOW_HEADERS = [
 ]
 
 
-ROOT_URLCONF = 'AxiomaConnect.urls'
+ROOT_URLCONF = 'MediFlowConnect.urls'
 
 TEMPLATES = [
     {
@@ -104,7 +104,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'AxiomaConnect.wsgi.application'
+WSGI_APPLICATION = 'MediFlowConnect.wsgi.application'
 
 
 # Database
@@ -122,11 +122,14 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': config('DB_NAME', default='axiomaconnect'),
+        'NAME': config('DB_NAME', default='mediflowconnect'),
         'USER': config('DB_USER', default='root'),
         'PASSWORD': config('DB_PASSWORD', default='Axioma2024!'),
         'HOST': config('DB_HOST', default='localhost'),  # o la dirección de tu servidor MySQL
         'PORT': config('DB_PORT', default='3306'),       # El puerto por defecto de MySQL
+        'OPTIONS': {
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+        }
     }
 }
 

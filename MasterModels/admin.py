@@ -80,6 +80,11 @@ for app_label in my_apps:
                         admin_registry[related_model] = []
                     
                     admin_registry[related_model].append(inline)
+
+                       # 🔹 **Registrar también el modelo de forma independiente**
+                    if model not in admin.site._registry:
+                        admin.site.register(model)
+
             else:
                 # Registrar modelos sin ForeignKeys
                 admin.site.register(model)
