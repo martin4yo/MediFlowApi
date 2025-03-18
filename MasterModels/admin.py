@@ -35,6 +35,8 @@ from django.apps import apps
 from django.db.models import ForeignKey
 
 from MasterModels.modelos_general import * 
+from MasterModels.modelos_profesionales import * 
+from MasterModels.modelos_pacientes import * 
 
 # Lista de tus aplicaciones, definidas en INSTALLED_APPS
 my_apps = [

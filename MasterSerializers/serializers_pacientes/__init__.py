@@ -1,0 +1,7 @@
+#Importa todos los modulos 
+from .paciente import PacienteSerializer
+from .pacientetelefono import PacienteTelefonoSerializer
+from .pacienteemail import PacienteEmailSerializer
+from .pacientehistoria import PacienteHistoriaSerializer
+from .pacientehistoriaadjunto import PacienteHistoriaAdjuntoSerializer
+from .pacientehistoriareceta import PacienteHistoriaRecetaSerializer

@@ -3,4 +3,9 @@ from .persona import PersonaViewSet
 from .centro import CentroViewSet
 from .especialidad import EspecialidadViewSet
 from .practica import PracticaViewSet   
-
+from .especialidadpractica import EspecialidadPracticaViewSet
+from .cobertura import CoberturaViewSet
+from .coberturaplan import CoberturaPlanViewSet
+from .practicaplan import PracticaPlanViewSet
+from .documento import DocumentoViewSet
+from .genero import GeneroViewSet

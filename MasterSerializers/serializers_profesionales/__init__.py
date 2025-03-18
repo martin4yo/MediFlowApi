@@ -1,0 +1,7 @@
+#Importa todos los modulos 
+from .profesional import ProfesionalSerializer
+from .profesionaltelefono import ProfesionalTelefonoSerializer
+from .profesionalemail import ProfesionalEmailSerializer
+from .profesionaldocumento import ProfesionalDocumentoSerializer
+from .profesionalpractica import ProfesionalPracticaSerializer
+from .profesionalpracticacentro import ProfesionalPracticaCentroSerializer

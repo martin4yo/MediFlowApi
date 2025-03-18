@@ -1,0 +1,7 @@
+#Importa todos los modulos 
+from .profesional import ProfesionalViewSet
+from .profesionaltelefono import ProfesionalTelefonoViewSet
+from .profesionalemail import ProfesionalEmailViewSet
+from .profesionaldocumento import ProfesionalDocumentoViewSet
+from .profesionalpractica import ProfesionalPracticaViewSet
+from .profesionalpracticacentro import ProfesionalPracticaCentroViewSet
