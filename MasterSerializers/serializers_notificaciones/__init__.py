@@ -1,0 +1,2 @@
+from .plantillanotificacion import PlantillaNotificacionSerializer
+from .notificacion import NotificacionSerializer

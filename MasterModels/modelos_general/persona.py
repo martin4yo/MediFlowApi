@@ -9,7 +9,7 @@ class Persona(models.Model):
     nombre = models.CharField(max_length=100, unique=True)
     direccion = models.CharField(max_length=255)
     telefono = models.CharField(max_length=15)
-    usuario = models.ForeignKey(User, on_delete=models.CASCADE, related_name='user')
+    usuario = models.ForeignKey(User, on_delete=models.CASCADE, related_name='personas')
     password = models.CharField(max_length=128)  # Considera usar un campo de contraseña más seguro
     mail = models.EmailField(max_length=254, unique=True)  # Agregando el campo mail
     created_at = models.DateTimeField(auto_now_add=True)

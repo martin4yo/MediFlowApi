@@ -10,7 +10,7 @@ class AuditModel(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     disabled = models.BooleanField(default=False)
-    user_id = models.ForeignKey('Persona', on_delete=models.CASCADE, blank=True, null=True)
+    user_id = models.ForeignKey('Persona', on_delete=models.CASCADE, blank=True, null=True, related_name='audit_%(class)s_set')
     
 
     class Meta:

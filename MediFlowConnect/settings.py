@@ -120,19 +120,32 @@ DATABASES = {
 }
 """
 
+# Configuración para desarrollo - cambiar a MySQL en producción
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db_desarrollo.sqlite3',
+    }
+}
+
+# Configuración MySQL (comentada hasta resolver permisos)
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': config('DB_NAME', default='mediflowconnect'),
         'USER': config('DB_USER', default='root'),
-        'PASSWORD': config('DB_PASSWORD', default='Axioma2024!'),
-        'HOST': config('DB_HOST', default='localhost'),  # o la dirección de tu servidor MySQL
-        'PORT': config('DB_PORT', default='3306'),       # El puerto por defecto de MySQL
+        'PASSWORD': config('DB_PASSWORD', default='Q27G4B98'),
+        'HOST': config('DB_HOST', default='127.0.0.1'),
+        'PORT': config('DB_PORT', default='3306'),
         'OPTIONS': {
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+            'charset': 'utf8mb4',
+            'autocommit': True,
         }
     }
 }
+"""
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
@@ -184,6 +197,9 @@ if ENVIRONMENT == 'production':
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Modelo de usuario personalizado (deshabilitado temporalmente por referencias circulares)
+# AUTH_USER_MODEL = 'MasterModels.Usuario'
 
 # VALIDACIONES
 

@@ -37,6 +37,11 @@ from django.db.models import ForeignKey
 from MasterModels.modelos_general import * 
 from MasterModels.modelos_profesionales import * 
 from MasterModels.modelos_pacientes import * 
+from MasterModels.modelos_auth import *
+from MasterModels.modelos_financieros import *
+from MasterModels.modelos_notificaciones import *
+from MasterModels.modelos_reportes import *
+from MasterModels.modelos_turnos import *
 
 # Lista de tus aplicaciones, definidas en INSTALLED_APPS
 my_apps = [
@@ -96,6 +101,10 @@ for app_label in my_apps:
 
 # Registrar modelos maestros con sus inlines
 for master_model, inlines in admin_registry.items():
+    # Verificar que master_model es una clase de modelo, no un string
+    if isinstance(master_model, str):
+        continue
+        
     admin_class = type(
         f"{master_model.__name__}Admin",
         (admin.ModelAdmin,),

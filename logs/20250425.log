@@ -1,0 +1,3533 @@
+INFO - 2025-04-25 06:47:26,091 - middlewares - [2025-04-25 06:47:26.091336] GET / - IP: 127.0.0.1
+INFO - 2025-04-25 06:47:26,092 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA': '"Brave";v="135", "Not-A.Brand";v="8", "Chromium";v="135"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8', 'HTTP_SEC_GPC': '1', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.8', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_SEC_FETCH_DEST': 'document', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_COOKIE': 'csrftoken=T7I1Q3N8u87ANgE0CWwI5aBVlbjdmBFt'}
+INFO - 2025-04-25 06:47:26,092 - middlewares - Request Body: None
+INFO - 2025-04-25 06:47:26,192 - middlewares - [2025-04-25 06:47:26.192111] Respuesta GET / - Status: 401
+INFO - 2025-04-25 06:47:26,192 - middlewares - Response Body: 
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+
+      
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+      
+
+      <title>Api Root – Django REST framework</title>
+
+      
+        
+          <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+          <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+      
+
+    
+  </head>
+
+  
+  <body class="">
+
+    <div class="wrapper">
+      
+        <div class="navbar navbar-static-top navbar-inverse"
+             role="navigation" aria-label="navbar">
+          <div class="container">
+            <span>
+              
+                <a class='navbar-brand' rel="nofollow" href='https://www.django-rest-framework.org/'>
+                    Django REST framework
+                </a>
+              
+            </span>
+            <ul class="nav navbar-nav pull-right">
+              
+                
+                  
+                
+              
+            </ul>
+          </div>
+        </div>
+      
+
+      <div class="container">
+        
+          <ul class="breadcrumb">
+            
+              
+                <li class="active"><a href="/">Api Root</a></li>
+              
+            
+          </ul>
+        
+
+        <!-- Content -->
+        <div id="content" role="main" aria-label="content">
+          
+
+          <div class="region"  aria-label="request form">
+          
+
+          
+            <form id="get-form" class="pull-right">
+              <fieldset>
+                
+                  <div class="btn-group format-selection">
+                    <a class="btn btn-primary js-tooltip" href="/" rel="nofollow" title="Make a GET request on the Api Root resource">GET</a>
+
+                    <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      
+                        <li>
+                          <a class="js-tooltip format-option" href="/?format=json" rel="nofollow" title="Make a GET request on the Api Root resource with the format set to `json`">json</a>
+                        </li>
+                      
+                        <li>
+                          <a class="js-tooltip format-option" href="/?format=api" rel="nofollow" title="Make a GET request on the Api Root resource with the format set to `api`">api</a>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                
+              </fieldset>
+            </form>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          </div>
+
+            <div class="content-main" role="main"  aria-label="main content">
+              <div class="page-header">
+                <h1>Api Root</h1>
+              </div>
+              <div class="pull-left">
+                
+                  
+                
+              </div>
+
+              
+
+              <div class="request-info" aria-label="request info">
+                <pre class="prettyprint"><b>GET</b> /</pre>
+              </div>
+
+              <div class="response-info" aria-label="response info">
+                <pre class="prettyprint"><span class="meta nocode"><b>HTTP 401 Unauthorized</b>
+<b>Allow:</b> <span class="lit">GET, HEAD, OPTIONS</span>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>WWW-Authenticate:</b> <span class="lit">Token</span>
+
+</span>{
+    &quot;detail&quot;: &quot;Authentication credentials were not provided.&quot;
+}</pre>
+              </div>
+            </div>
+
+            
+              
+
+              
+            
+          
+        </div><!-- /.content -->
+      </div><!-- /.container -->
+    </div><!-- ./wrapper -->
+
+    
+
+    
+      <script type="application/json" id="drf_csrf">
+        {
+          "csrfHeaderName": "X-CSRFTOKEN",
+          "csrfToken": "YBBb3ERHAeJjWO9a8s8BcYhLriFl6MYAHy92JxuFUcGJzUD0Aeu97YIwCjOoidtT"
+        }
+      </script>
+      <script src="/static/rest_framework/js/jquery-3.7.1.min.js"></script>
+      <script src="/static/rest_framework/js/ajax-form.js"></script>
+      <script src="/static/rest_framework/js/csrf.js"></script>
+      <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+      <script src="/static/rest_framework/js/prettify-min.js"></script>
+      <script src="/static/rest_framework/js/default.js"></script>
+      <script src="/static/rest_framework/js/load-ajax-form.js"></script>
+    
+
+  </body>
+  
+</html>
+
+WARNING - 2025-04-25 06:47:26,192 - log - Unauthorized: /
+WARNING - 2025-04-25 06:47:26,192 - basehttp - "GET / HTTP/1.1" 401 4966
+INFO - 2025-04-25 06:47:26,420 - basehttp - "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO - 2025-04-25 06:47:26,425 - basehttp - "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO - 2025-04-25 06:47:26,425 - basehttp - "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO - 2025-04-25 06:47:26,430 - basehttp - "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO - 2025-04-25 06:47:26,431 - basehttp - "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO - 2025-04-25 06:47:26,435 - basehttp - "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO - 2025-04-25 06:47:26,439 - basehttp - "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO - 2025-04-25 06:47:26,440 - basehttp - "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO - 2025-04-25 06:47:26,461 - basehttp - "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO - 2025-04-25 06:47:26,466 - basehttp - "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO - 2025-04-25 06:47:26,472 - basehttp - "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO - 2025-04-25 06:47:26,504 - basehttp - "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO - 2025-04-25 06:47:26,575 - middlewares - [2025-04-25 06:47:26.575755] GET /favicon.ico - IP: 127.0.0.1
+INFO - 2025-04-25 06:47:26,575 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36', 'HTTP_SEC_CH_UA': '"Brave";v="135", "Not-A.Brand";v="8", "Chromium";v="135"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_ACCEPT': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'HTTP_SEC_GPC': '1', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'no-cors', 'HTTP_SEC_FETCH_DEST': 'image', 'HTTP_REFERER': 'http://127.0.0.1:8000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_COOKIE': 'csrftoken=T7I1Q3N8u87ANgE0CWwI5aBVlbjdmBFt'}
+INFO - 2025-04-25 06:47:26,575 - middlewares - Request Body: None
+INFO - 2025-04-25 06:47:26,591 - middlewares - [2025-04-25 06:47:26.591844] Respuesta GET /favicon.ico - Status: 404
+INFO - 2025-04-25 06:47:26,591 - middlewares - Response Body: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /favicon.ico</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style>
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font-family: sans-serif; background:#eee; color:#000; }
+    body > :where(header, main, footer) { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 small { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }
+  </style>
+</head>
+<body>
+  <header id="summary">
+    <h1>Page not found <small>(404)</small></h1>
+    
+    <table class="meta">
+      <tr>
+        <th scope="row">Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th scope="row">Request URL:</th>
+        <td>http://127.0.0.1:8000/favicon.ico</td>
+      </tr>
+      
+    </table>
+  </header>
+
+  <main id="info">
+    
+      <p>
+      Using the URLconf defined in <code>MediFlowConnect.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+              <code>
+                admin/
+                
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/persona/$
+                [name='personas-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/persona\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='personas-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/persona/(?P&lt;pk&gt;[^/.]+)/$
+                [name='personas-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/persona/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='personas-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/practica/$
+                [name='practicas-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/practica\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='practicas-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/practica/(?P&lt;pk&gt;[^/.]+)/$
+                [name='practicas-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/practica/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='practicas-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/centro/$
+                [name='centros-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/centro\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='centros-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/centro/(?P&lt;pk&gt;[^/.]+)/$
+                [name='centros-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/centro/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='centros-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/especialidad/$
+                [name='especialidades-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/especialidad\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='especialidades-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/especialidad/(?P&lt;pk&gt;[^/.]+)/$
+                [name='especialidades-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/especialidad/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='especialidades-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/especialidadpractica/$
+                [name='especialidadespracticas-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/especialidadpractica\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='especialidadespracticas-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/especialidadpractica/(?P&lt;pk&gt;[^/.]+)/$
+                [name='especialidadespracticas-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/especialidadpractica/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='especialidadespracticas-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/cobertura/$
+                [name='coberturas-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/cobertura\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='coberturas-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/cobertura/(?P&lt;pk&gt;[^/.]+)/$
+                [name='coberturas-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/cobertura/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='coberturas-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/coberturaplan/$
+                [name='coberturasplanes-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/coberturaplan\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='coberturasplanes-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/coberturaplan/(?P&lt;pk&gt;[^/.]+)/$
+                [name='coberturasplanes-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/coberturaplan/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='coberturasplanes-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/practicaplan/$
+                [name='practicasplanes-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/practicaplan\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='practicasplanes-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/practicaplan/(?P&lt;pk&gt;[^/.]+)/$
+                [name='practicasplanes-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/practicaplan/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='practicasplanes-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/documento/$
+                [name='documentos-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/documento\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='documentos-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/documento/(?P&lt;pk&gt;[^/.]+)/$
+                [name='documentos-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/documento/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='documentos-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/genero/$
+                [name='generos-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/genero\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='generos-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/genero/(?P&lt;pk&gt;[^/.]+)/$
+                [name='generos-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/general/genero/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='generos-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesional/$
+                [name='profesionales-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesional\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='profesionales-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesional/(?P&lt;pk&gt;[^/.]+)/$
+                [name='profesionales-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesional/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='profesionales-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesionalemail/$
+                [name='profesionalemails-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesionalemail\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='profesionalemails-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesionalemail/(?P&lt;pk&gt;[^/.]+)/$
+                [name='profesionalemails-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesionalemail/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='profesionalemails-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesionaltelefono/$
+                [name='profesionaltelefonos-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesionaltelefono\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='profesionaltelefonos-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesionaltelefono/(?P&lt;pk&gt;[^/.]+)/$
+                [name='profesionaltelefonos-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesionaltelefono/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='profesionaltelefonos-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesionaldocumento/$
+                [name='profesionaldocumentos-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesionaldocumento\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='profesionaldocumentos-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesionaldocumento/(?P&lt;pk&gt;[^/.]+)/$
+                [name='profesionaldocumentos-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesionaldocumento/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='profesionaldocumentos-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesionalpractica/$
+                [name='profesionalpracticas-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesionalpractica\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='profesionalpracticas-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesionalpractica/(?P&lt;pk&gt;[^/.]+)/$
+                [name='profesionalpracticas-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesionalpractica/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='profesionalpracticas-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesionalpracticacentro/$
+                [name='profesionalpracticacentros-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesionalpracticacentro\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='profesionalpracticacentros-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesionalpracticacentro/(?P&lt;pk&gt;[^/.]+)/$
+                [name='profesionalpracticacentros-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/profesionales/profesionalpracticacentro/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='profesionalpracticacentros-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/paciente/$
+                [name='pacientes-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/paciente\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='pacientes-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/paciente/(?P&lt;pk&gt;[^/.]+)/$
+                [name='pacientes-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/paciente/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='pacientes-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/pacienteemail/$
+                [name='pacienteemails-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/pacienteemail\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='pacienteemails-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/pacienteemail/(?P&lt;pk&gt;[^/.]+)/$
+                [name='pacienteemails-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/pacienteemail/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='pacienteemails-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/pacientetelefono/$
+                [name='pacientetelefonos-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/pacientetelefono\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='pacientetelefonos-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/pacientetelefono/(?P&lt;pk&gt;[^/.]+)/$
+                [name='pacientetelefonos-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/pacientetelefono/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='pacientetelefonos-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/pacientehistoria/$
+                [name='pacientehistorias-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/pacientehistoria\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='pacientehistorias-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/pacientehistoria/(?P&lt;pk&gt;[^/.]+)/$
+                [name='pacientehistorias-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/pacientehistoria/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='pacientehistorias-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/pacientehistoriaadjunto/$
+                [name='pacientehistoriasadjuntos-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/pacientehistoriaadjunto\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='pacientehistoriasadjuntos-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/pacientehistoriaadjunto/(?P&lt;pk&gt;[^/.]+)/$
+                [name='pacientehistoriasadjuntos-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/pacientehistoriaadjunto/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='pacientehistoriasadjuntos-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/pacientehistoriareceta/$
+                [name='pacientehistoriasrecetas-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/pacientehistoriareceta\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='pacientehistoriasrecetas-list']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/pacientehistoriareceta/(?P&lt;pk&gt;[^/.]+)/$
+                [name='pacientehistoriasrecetas-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                ^api/pacientes/pacientehistoriareceta/(?P&lt;pk&gt;[^/.]+)\.(?P&lt;format&gt;[a-z0-9]+)/?$
+                [name='pacientehistoriasrecetas-detail']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                [name='api-root']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                
+                
+              </code>
+            
+              <code>
+                &lt;drf_format_suffix:format&gt;
+                [name='api-root']
+              </code>
+            
+          </li>
+        
+          <li>
+            
+              <code>
+                api/token/
+                [name='api_token_auth']
+              </code>
+            
+          </li>
+        
+      </ol>
+      <p>
+        
+          The current path, <code>favicon.ico</code>,
+        
+        didn’t match any of these.
+      </p>
+    
+  </main>
+
+  <footer id="explanation">
+    <p>
+      You’re seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </footer>
+</body>
+</html>
+
+WARNING - 2025-04-25 06:47:26,591 - log - Not Found: /favicon.ico
+WARNING - 2025-04-25 06:47:26,591 - basehttp - "GET /favicon.ico HTTP/1.1" 404 39213
+INFO - 2025-04-25 06:47:35,670 - middlewares - [2025-04-25 06:47:35.670453] GET / - IP: 127.0.0.1
+INFO - 2025-04-25 06:47:35,670 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA': '"Brave";v="135", "Not-A.Brand";v="8", "Chromium";v="135"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8', 'HTTP_SEC_GPC': '1', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.8', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_SEC_FETCH_DEST': 'document', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_COOKIE': 'csrftoken=T7I1Q3N8u87ANgE0CWwI5aBVlbjdmBFt'}
+INFO - 2025-04-25 06:47:35,671 - middlewares - Request Body: None
+INFO - 2025-04-25 06:47:35,676 - middlewares - [2025-04-25 06:47:35.676123] Respuesta GET / - Status: 401
+INFO - 2025-04-25 06:47:35,677 - middlewares - Response Body: 
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+
+      
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+      
+
+      <title>Api Root – Django REST framework</title>
+
+      
+        
+          <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+          <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+      
+
+    
+  </head>
+
+  
+  <body class="">
+
+    <div class="wrapper">
+      
+        <div class="navbar navbar-static-top navbar-inverse"
+             role="navigation" aria-label="navbar">
+          <div class="container">
+            <span>
+              
+                <a class='navbar-brand' rel="nofollow" href='https://www.django-rest-framework.org/'>
+                    Django REST framework
+                </a>
+              
+            </span>
+            <ul class="nav navbar-nav pull-right">
+              
+                
+                  
+                
+              
+            </ul>
+          </div>
+        </div>
+      
+
+      <div class="container">
+        
+          <ul class="breadcrumb">
+            
+              
+                <li class="active"><a href="/">Api Root</a></li>
+              
+            
+          </ul>
+        
+
+        <!-- Content -->
+        <div id="content" role="main" aria-label="content">
+          
+
+          <div class="region"  aria-label="request form">
+          
+
+          
+            <form id="get-form" class="pull-right">
+              <fieldset>
+                
+                  <div class="btn-group format-selection">
+                    <a class="btn btn-primary js-tooltip" href="/" rel="nofollow" title="Make a GET request on the Api Root resource">GET</a>
+
+                    <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      
+                        <li>
+                          <a class="js-tooltip format-option" href="/?format=json" rel="nofollow" title="Make a GET request on the Api Root resource with the format set to `json`">json</a>
+                        </li>
+                      
+                        <li>
+                          <a class="js-tooltip format-option" href="/?format=api" rel="nofollow" title="Make a GET request on the Api Root resource with the format set to `api`">api</a>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                
+              </fieldset>
+            </form>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          </div>
+
+            <div class="content-main" role="main"  aria-label="main content">
+              <div class="page-header">
+                <h1>Api Root</h1>
+              </div>
+              <div class="pull-left">
+                
+                  
+                
+              </div>
+
+              
+
+              <div class="request-info" aria-label="request info">
+                <pre class="prettyprint"><b>GET</b> /</pre>
+              </div>
+
+              <div class="response-info" aria-label="response info">
+                <pre class="prettyprint"><span class="meta nocode"><b>HTTP 401 Unauthorized</b>
+<b>Allow:</b> <span class="lit">GET, HEAD, OPTIONS</span>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+<b>WWW-Authenticate:</b> <span class="lit">Token</span>
+
+</span>{
+    &quot;detail&quot;: &quot;Authentication credentials were not provided.&quot;
+}</pre>
+              </div>
+            </div>
+
+            
+              
+
+              
+            
+          
+        </div><!-- /.content -->
+      </div><!-- /.container -->
+    </div><!-- ./wrapper -->
+
+    
+
+    
+      <script type="application/json" id="drf_csrf">
+        {
+          "csrfHeaderName": "X-CSRFTOKEN",
+          "csrfToken": "tR8ZmzHQktnfDr5fjpYczB2oflI0BmfZcOGQ2skOErkFgxz5LbkKuBt9qmR3NNKi"
+        }
+      </script>
+      <script src="/static/rest_framework/js/jquery-3.7.1.min.js"></script>
+      <script src="/static/rest_framework/js/ajax-form.js"></script>
+      <script src="/static/rest_framework/js/csrf.js"></script>
+      <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+      <script src="/static/rest_framework/js/prettify-min.js"></script>
+      <script src="/static/rest_framework/js/default.js"></script>
+      <script src="/static/rest_framework/js/load-ajax-form.js"></script>
+    
+
+  </body>
+  
+</html>
+
+WARNING - 2025-04-25 06:47:35,677 - log - Unauthorized: /
+WARNING - 2025-04-25 06:47:35,677 - basehttp - "GET / HTTP/1.1" 401 4966
+INFO - 2025-04-25 06:47:38,831 - middlewares - [2025-04-25 06:47:38.831457] GET /admin/ - IP: 127.0.0.1
+INFO - 2025-04-25 06:47:38,831 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8', 'HTTP_SEC_GPC': '1', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.8', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_SEC_FETCH_DEST': 'document', 'HTTP_SEC_CH_UA': '"Brave";v="135", "Not-A.Brand";v="8", "Chromium";v="135"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_COOKIE': 'csrftoken=T7I1Q3N8u87ANgE0CWwI5aBVlbjdmBFt'}
+INFO - 2025-04-25 06:47:38,832 - middlewares - Request Body: None
+INFO - 2025-04-25 06:47:38,847 - middlewares - [2025-04-25 06:47:38.847469] Respuesta GET /admin/ - Status: 302
+INFO - 2025-04-25 06:47:38,847 - middlewares - Response Body: 
+INFO - 2025-04-25 06:47:38,848 - basehttp - "GET /admin/ HTTP/1.1" 302 0
+INFO - 2025-04-25 06:47:38,850 - middlewares - [2025-04-25 06:47:38.850280] GET /admin/login/ - IP: 127.0.0.1
+INFO - 2025-04-25 06:47:38,850 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8', 'HTTP_SEC_GPC': '1', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.8', 'HTTP_SEC_FETCH_SITE': 'none', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_SEC_FETCH_DEST': 'document', 'HTTP_SEC_CH_UA': '"Brave";v="135", "Not-A.Brand";v="8", "Chromium";v="135"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_COOKIE': 'csrftoken=T7I1Q3N8u87ANgE0CWwI5aBVlbjdmBFt'}
+INFO - 2025-04-25 06:47:38,850 - middlewares - Request Body: None
+INFO - 2025-04-25 06:47:38,877 - middlewares - [2025-04-25 06:47:38.877008] Respuesta GET /admin/login/ - Status: 200
+INFO - 2025-04-25 06:47:38,878 - middlewares - Response Body: 
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en-us" >
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Log in | Django site admin</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="/static/vendor/fontawesome-free/css/all.min.css">
+
+    <!-- Bootstrap and adminLTE -->
+    <link rel="stylesheet" href="/static/vendor/adminlte/css/adminlte.min.css">
+
+    <!-- Bootswatch theme -->
+    
+
+    
+
+    <!-- Custom fixes for django -->
+    <link rel="stylesheet" href="/static/jazzmin/css/main.css">
+
+    
+
+    <!-- favicons -->
+    <link rel="shortcut icon" href="/static/vendor/adminlte/img/AdminLTELogo.png" type="image/png">
+    <link rel="icon" href="/static/vendor/adminlte/img/AdminLTELogo.png" sizes="32x32" type="image/png">
+
+    
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    
+
+     
+     
+</head>
+<body class="hold-transition jazzmin-login-page">
+
+<div class="login-box">
+    <div class="login-logo">
+        <h1>
+            <picture>
+                <source
+                    srcset="/static/vendor/adminlte/img/AdminLTELogo.png"
+                    media="(prefers-color-scheme: dark)">
+                 <img src="/static/vendor/adminlte/img/AdminLTELogo.png" alt="Django administration">
+            </picture>
+        </h1>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            
+    <p class="login-box-msg">Welcome</p>
+    <form action="/admin/login/?next=/admin/" method="post">
+        <input type="hidden" name="csrfmiddlewaretoken" value="5p18oeKM5O4AMZVmGOpLkjNSZ9WEpdJMOmzZ47nKpM10p5pc8ALjfjeDaa5HBEe5">
+        
+        
+        <div class="input-group mb-3">
+            <input type="text" name="username" class="form-control" placeholder="Username" required>
+            <div class="input-group-append">
+                <div class="input-group-text">
+                    <span class="fas fa-user"></span>
+                </div>
+            </div>
+        </div>
+        <div class="input-group mb-3">
+            <input type="password" name="password" class="form-control" placeholder="Password" required>
+            <div class="input-group-append">
+                <div class="input-group-text">
+                    <span class="fas fa-lock"></span>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="row">
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary btn-block">
+                    Log in
+                </button>
+            </div>
+        </div>
+    </form>
+
+        </div>
+    </div>
+</div>
+
+<!-- jQuery -->
+<script src="/static/admin/js/vendor/jquery/jquery.js"></script>
+<!-- Bootstrap 4 -->
+<script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- AdminLTE App -->
+<script src="/static/vendor/adminlte/js/adminlte.min.js"></script>
+
+
+
+</body>
+</html>
+
+INFO - 2025-04-25 06:47:38,878 - basehttp - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3065
+INFO - 2025-04-25 06:47:38,905 - basehttp - "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+INFO - 2025-04-25 06:47:38,905 - basehttp - "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO - 2025-04-25 06:47:38,905 - basehttp - "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO - 2025-04-25 06:47:38,905 - basehttp - "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO - 2025-04-25 06:47:38,906 - basehttp - "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO - 2025-04-25 06:47:38,909 - basehttp - "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO - 2025-04-25 06:47:38,952 - basehttp - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO - 2025-04-25 06:47:39,061 - basehttp - "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO - 2025-04-25 06:47:43,347 - middlewares - [2025-04-25 06:47:43.347394] POST /admin/login/ - IP: 127.0.0.1
+INFO - 2025-04-25 06:47:43,347 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_SEC_CH_UA': '"Brave";v="135", "Not-A.Brand";v="8", "Chromium";v="135"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8', 'HTTP_SEC_GPC': '1', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_SEC_FETCH_DEST': 'document', 'HTTP_REFERER': 'http://127.0.0.1:8000/admin/login/?next=/admin/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_COOKIE': 'csrftoken=T7I1Q3N8u87ANgE0CWwI5aBVlbjdmBFt'}
+INFO - 2025-04-25 06:47:43,347 - middlewares - Request Body: csrfmiddlewaretoken=5p18oeKM5O4AMZVmGOpLkjNSZ9WEpdJMOmzZ47nKpM10p5pc8ALjfjeDaa5HBEe5&username=mfourgeaux&password=1234
+INFO - 2025-04-25 06:47:43,786 - middlewares - [2025-04-25 06:47:43.786300] Respuesta POST /admin/login/ - Status: 200
+INFO - 2025-04-25 06:47:43,786 - middlewares - Response Body: 
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en-us" >
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Log in | Django site admin</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="/static/vendor/fontawesome-free/css/all.min.css">
+
+    <!-- Bootstrap and adminLTE -->
+    <link rel="stylesheet" href="/static/vendor/adminlte/css/adminlte.min.css">
+
+    <!-- Bootswatch theme -->
+    
+
+    
+
+    <!-- Custom fixes for django -->
+    <link rel="stylesheet" href="/static/jazzmin/css/main.css">
+
+    
+
+    <!-- favicons -->
+    <link rel="shortcut icon" href="/static/vendor/adminlte/img/AdminLTELogo.png" type="image/png">
+    <link rel="icon" href="/static/vendor/adminlte/img/AdminLTELogo.png" sizes="32x32" type="image/png">
+
+    
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    
+
+     
+     
+</head>
+<body class="hold-transition jazzmin-login-page">
+
+<div class="login-box">
+    <div class="login-logo">
+        <h1>
+            <picture>
+                <source
+                    srcset="/static/vendor/adminlte/img/AdminLTELogo.png"
+                    media="(prefers-color-scheme: dark)">
+                 <img src="/static/vendor/adminlte/img/AdminLTELogo.png" alt="Django administration">
+            </picture>
+        </h1>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            
+    <p class="login-box-msg">Welcome</p>
+    <form action="/admin/login/?next=/admin/" method="post">
+        <input type="hidden" name="csrfmiddlewaretoken" value="GZxiHQkMkpeNVb4pKtLkAb8eXwpn07EkpW59nJXKEnbdyhyfcf7SvbzZ8xyqcy9D">
+        
+        
+            
+            
+            
+                <div class="callout callout-danger">
+                    
+                        <p>Please enter the correct username and password for a staff account. Note that both fields may be case-sensitive.</p>
+                    
+                </div>
+            
+        
+        <div class="input-group mb-3">
+            <input type="text" name="username" class="form-control" placeholder="Username" required>
+            <div class="input-group-append">
+                <div class="input-group-text">
+                    <span class="fas fa-user"></span>
+                </div>
+            </div>
+        </div>
+        <div class="input-group mb-3">
+            <input type="password" name="password" class="form-control" placeholder="Password" required>
+            <div class="input-group-append">
+                <div class="input-group-text">
+                    <span class="fas fa-lock"></span>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="row">
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary btn-block">
+                    Log in
+                </button>
+            </div>
+        </div>
+    </form>
+
+        </div>
+    </div>
+</div>
+
+<!-- jQuery -->
+<script src="/static/admin/js/vendor/jquery/jquery.js"></script>
+<!-- Bootstrap 4 -->
+<script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- AdminLTE App -->
+<script src="/static/vendor/adminlte/js/adminlte.min.js"></script>
+
+
+
+</body>
+</html>
+
+INFO - 2025-04-25 06:47:43,786 - basehttp - "POST /admin/login/?next=/admin/ HTTP/1.1" 200 3388
+INFO - 2025-04-25 06:47:47,915 - middlewares - [2025-04-25 06:47:47.915553] POST /admin/login/ - IP: 127.0.0.1
+INFO - 2025-04-25 06:47:47,915 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_SEC_CH_UA': '"Brave";v="135", "Not-A.Brand";v="8", "Chromium";v="135"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8', 'HTTP_SEC_GPC': '1', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_SEC_FETCH_DEST': 'document', 'HTTP_REFERER': 'http://127.0.0.1:8000/admin/login/?next=/admin/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_COOKIE': 'csrftoken=T7I1Q3N8u87ANgE0CWwI5aBVlbjdmBFt'}
+INFO - 2025-04-25 06:47:47,915 - middlewares - Request Body: csrfmiddlewaretoken=GZxiHQkMkpeNVb4pKtLkAb8eXwpn07EkpW59nJXKEnbdyhyfcf7SvbzZ8xyqcy9D&username=admin&password=1234
+INFO - 2025-04-25 06:47:48,445 - middlewares - [2025-04-25 06:47:48.445747] Respuesta POST /admin/login/ - Status: 302
+INFO - 2025-04-25 06:47:48,445 - middlewares - Response Body: 
+INFO - 2025-04-25 06:47:48,445 - basehttp - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO - 2025-04-25 06:47:48,449 - middlewares - [2025-04-25 06:47:48.449776] GET /admin/ - IP: 127.0.0.1
+INFO - 2025-04-25 06:47:48,449 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8', 'HTTP_SEC_GPC': '1', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.8', 'HTTP_SEC_FETCH_SITE': 'same-origin', 'HTTP_SEC_FETCH_MODE': 'navigate', 'HTTP_SEC_FETCH_USER': '?1', 'HTTP_SEC_FETCH_DEST': 'document', 'HTTP_SEC_CH_UA': '"Brave";v="135", "Not-A.Brand";v="8", "Chromium";v="135"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_REFERER': 'http://127.0.0.1:8000/admin/login/?next=/admin/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_COOKIE': 'csrftoken=k6UkluD0C2UDA3FfyjVVF1Q16ornHzLX; sessionid=r1eiu0g9wetc3ur8sjx9hlh32usp9c6y'}
+INFO - 2025-04-25 06:47:48,449 - middlewares - Request Body: None
+INFO - 2025-04-25 06:47:48,572 - middlewares - [2025-04-25 06:47:48.572153] Respuesta GET /admin/ - Status: 200
+INFO - 2025-04-25 06:47:48,573 - middlewares - Response Body: 
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en-us" >
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!--  Prevent admin panel being crawled by search engines -->
+    <meta name="robots" content="none, noarchive">
+
+    <title>Site administration | Django site admin</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="/static/vendor/fontawesome-free/css/all.min.css">
+
+    <!-- Bootstrap and adminLTE -->
+    <link rel="stylesheet" href="/static/vendor/adminlte/css/adminlte.min.css" id="adminlte-css">
+
+    <!-- Bootswatch theme -->
+    
+
+    
+
+    <!-- Custom fixes for django -->
+    <link rel="stylesheet" href="/static/jazzmin/css/main.css">
+
+    
+
+    <!-- favicons -->
+    <link rel="shortcut icon" href="/static/vendor/adminlte/img/AdminLTELogo.png" type="image/png">
+    <link rel="icon" href="/static/vendor/adminlte/img/AdminLTELogo.png" sizes="32x32" type="image/png">
+
+    
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    
+
+     
+     
+</head>
+<body class="hold-transition sidebar-mini   dashboard accent-primary theme-default " data-admin-utc-offset="0">
+
+<div class="wrapper">
+
+    
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light" id="jazzy-navbar">
+            <ul class="navbar-nav">
+
+                
+                    <li class="nav-item">
+                        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                    </li>
+                
+
+                
+                
+            </ul>
+
+            
+
+            <ul class="navbar-nav ml-auto">
+
+                
+                
+
+                
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link btn" data-toggle="dropdown" href="#" title="admin">
+                        <i class="far fa-user" aria-hidden="true"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-left" id="jazzy-usermenu">
+                        <span class="dropdown-header">Account</span>
+                        <div class="dropdown-divider"></div>
+                        <a href="/admin/password_change/" class="dropdown-item">
+                            <i class="fas fa-key mr-2"></i> Change password
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <form id="logout-form" method="post" action="/admin/logout/">
+                            <input type="hidden" name="csrfmiddlewaretoken" value="vZc83nCuLgwMoeZbwAb8iE9Okx5MCnzuFVWieH5kd8gfO7ugUJWTNvPFgLmZ9Mah">
+                            <button type="submit" class="dropdown-item"><i class="fas fa-users mr-2"></i> Log out</button>
+                        </form>
+                        
+                        
+                        <div class="dropdown-divider"></div>
+                        
+                            <a href="/admin/auth/user/1/change/" class="dropdown-item dropdown-footer">See Profile</a>
+                        
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        
+        
+            
+
+            <aside class="main-sidebar elevation-4 sidebar-dark-primary" id="jazzy-sidebar">
+                <a href="/admin/" class="brand-link " id="jazzy-logo">
+                    <img src="/static/vendor/adminlte/img/AdminLTELogo.png" alt="Django administration Logo" class="img-circle brand-image elevation-3" style="opacity: .8">
+                    <span class="brand-text font-weight-light">Django administration</span>
+                </a>
+
+                <div class="sidebar">
+                    <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                        <div class="image">
+                            
+                                <i class="fas fa-inverse user-profile fa-user-circle"></i>
+                            
+                        </div>
+                        <div class="info">
+                            
+                                <a href="/admin/auth/user/1/change/" class="d-block">admin</a>
+                            
+                        </div>
+                    </div>
+
+                    <nav class="mt-2">
+                        <ul class="nav nav-pills nav-sidebar flex-column " data-widget="treeview" role="menu" data-collapsible="false">
+
+                            <li class="nav-item">
+                                <a href="/admin/" class="nav-link">
+                                    <i class="nav-icon fas fa-th-large"></i>
+                                    <p>Dashboard</p>
+                                </a>
+                            </li>
+
+                            
+                                
+                                    <li class="nav-header">Auth Token</li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/authtoken/tokenproxy/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>Tokens</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                
+                                    <li class="nav-header">Authentication and Authorization</li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/auth/group/" class="nav-link">
+                                                <i class="nav-icon fas fa-users"></i> <p>Groups</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/auth/user/" class="nav-link">
+                                                <i class="nav-icon fas fa-user"></i> <p>Users</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                
+                                    <li class="nav-header">Mastermodels</li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/centro/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>GRAL - Centros</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/cobertura/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>GRAL - Coberturas</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/documento/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>GRAL - Documentos</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/especialidad/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>GRAL - Especialidad</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/genero/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>GRAL - Generos</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/persona/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>GRAL - Personas</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/coberturaplan/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>GRAL - Planes por Cobertura</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/especialidadpractica/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>GRAL - Practica por Especialidad</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/practica/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>GRAL - Practicas</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/practicaplan/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>GRAL - Practicas por Plan</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/pacienteemail/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>PACI - Emails por paciente</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/pacientehistoriaadjunto/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>PACI - Historia/Adjuntos por paciente</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/pacientehistoriareceta/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>PACI - Historia/Receta por paciente</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/pacientehistoria/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>PACI - Historias por paciente</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/paciente/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>PACI - Pacientes</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/pacientetelefono/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>PACI - Telefonos por paciente</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/profesionaldocumento/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>PROS - Documentos por Profesional</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/profesionalemail/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>PROS - Emails por profesional</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/profesionalpractica/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>PROS - Practicas por Profesional</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/profesionalpracticacentro/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>PROS - Practicas por Profesional/Centro</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/profesional/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>PROS - Profesionales</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                        <li class="nav-item">
+                                            
+                                            <a href="/admin/MasterModels/profesionaltelefono/" class="nav-link">
+                                                <i class="nav-icon fas fa-circle"></i> <p>PROS - Telefonos por profesional</p>
+                                            </a>
+                                        
+                                        </li>
+                                    
+                                
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+        
+        
+    
+
+    <div class="content-wrapper" >
+        
+            
+            <div class="content border-bottom mb-2">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-md-auto d-flex flex-grow-1 align-items-center">
+                            <h1 class="h4 m-0 pr-3 mr-3 border-right"> Dashboard </h1>
+                            
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/admin/">Home</a></li>
+        <li class="breadcrumb-item">Dashboard</li>
+    </ol>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="content">
+                <div class="container-fluid">
+                    <section id="content" class="content">
+                        
+                            
+                        
+                        <div class="row">
+                            
+    
+    
+        
+    
+
+    <div class="col-lg-9 col-12">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="m-0">Auth Token</h5>
+                        </div>
+                        <div class="card-body">
+                            <table class="table table-sm">
+                                <tbody>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/authtoken/tokenproxy/">Tokens</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/authtoken/tokenproxy/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/authtoken/tokenproxy/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    
+
+                
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="m-0">Authentication and Authorization</h5>
+                        </div>
+                        <div class="card-body">
+                            <table class="table table-sm">
+                                <tbody>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/auth/group/">Groups</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/auth/group/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/auth/group/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/auth/user/">Users</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/auth/user/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/auth/user/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                    
+
+                
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="m-0">Mastermodels</h5>
+                        </div>
+                        <div class="card-body">
+                            <table class="table table-sm">
+                                <tbody>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/centro/">GRAL - Centros</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/centro/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/centro/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/cobertura/">GRAL - Coberturas</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/cobertura/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/cobertura/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/documento/">GRAL - Documentos</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/documento/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/documento/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/especialidad/">GRAL - Especialidad</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/especialidad/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/especialidad/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/genero/">GRAL - Generos</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/genero/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/genero/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/persona/">GRAL - Personas</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/persona/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/persona/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/coberturaplan/">GRAL - Planes por Cobertura</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/coberturaplan/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/coberturaplan/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/especialidadpractica/">GRAL - Practica por Especialidad</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/especialidadpractica/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/especialidadpractica/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/practica/">GRAL - Practicas</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/practica/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/practica/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/practicaplan/">GRAL - Practicas por Plan</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/practicaplan/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/practicaplan/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/pacienteemail/">PACI - Emails por paciente</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/pacienteemail/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/pacienteemail/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/pacientehistoriaadjunto/">PACI - Historia/Adjuntos por paciente</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/pacientehistoriaadjunto/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/pacientehistoriaadjunto/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/pacientehistoriareceta/">PACI - Historia/Receta por paciente</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/pacientehistoriareceta/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/pacientehistoriareceta/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/pacientehistoria/">PACI - Historias por paciente</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/pacientehistoria/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/pacientehistoria/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/paciente/">PACI - Pacientes</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/paciente/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/paciente/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/pacientetelefono/">PACI - Telefonos por paciente</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/pacientetelefono/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/pacientetelefono/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/profesionaldocumento/">PROS - Documentos por Profesional</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/profesionaldocumento/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/profesionaldocumento/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/profesionalemail/">PROS - Emails por profesional</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/profesionalemail/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/profesionalemail/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/profesionalpractica/">PROS - Practicas por Profesional</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/profesionalpractica/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/profesionalpractica/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/profesionalpracticacentro/">PROS - Practicas por Profesional/Centro</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/profesionalpracticacentro/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/profesionalpracticacentro/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/profesional/">PROS - Profesionales</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/profesional/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/profesional/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td>
+                                            <a href="/admin/MasterModels/profesionaltelefono/">PROS - Telefonos por profesional</a>
+                                        </td>
+                                        <td>
+                                            <div class="btn-group float-right">
+                                                
+                                                    <a href="/admin/MasterModels/profesionaltelefono/add/" class="btn btn-xs btn-success addlink">Add</a>
+                                                
+                                                
+                                                    
+                                                        <a href="/admin/MasterModels/profesionaltelefono/" class="btn btn-xs btn-info changelink">Change</a>
+                                                    
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    
+
+                
+                </div>
+        </div>
+
+    </div>
+    <div class="col-lg-3 col-12">
+        <div id="content-related">
+            <div class="module" id="recent-actions-module">
+                <h4 class="mb-3">Recent actions</h4>
+                
+                
+                
+                    <div class="timeline">
+                        
+                            <div>
+                                
+                                    <i class="fas fa-plus-circle bg-success text-xs"></i>
+                                
+
+                                <div class="timeline-item">
+                                    <span class="time"><i class="fas fa-clock"></i> 1 month, 1 week ago</span>
+                                    <h3 class="timeline-header no-border">
+                                        
+                                            <a href="/admin/MasterModels/genero/2/change/">F, Femenino</a>
+                                        
+
+                                        
+                                    </h3>
+                                    
+                                        <div class="timeline-body">
+                                            
+                                                Added “F, Femenino”.
+                                            
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div>
+                                
+                                    <i class="fas fa-plus-circle bg-success text-xs"></i>
+                                
+
+                                <div class="timeline-item">
+                                    <span class="time"><i class="fas fa-clock"></i> 1 month, 1 week ago</span>
+                                    <h3 class="timeline-header no-border">
+                                        
+                                            <a href="/admin/MasterModels/genero/1/change/">M, Masculino</a>
+                                        
+
+                                        
+                                    </h3>
+                                    
+                                        <div class="timeline-body">
+                                            
+                                                Added “M, Masculino”.
+                                            
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div>
+                                
+                                    <i class="fas fa-trash bg-danger text-xs"></i>
+                                
+
+                                <div class="timeline-item">
+                                    <span class="time"><i class="fas fa-clock"></i> 1 month, 1 week ago</span>
+                                    <h3 class="timeline-header no-border">
+                                        
+                                            Alonso, Marcelo, 22301759
+                                        
+
+                                        
+                                    </h3>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div>
+                                
+                                    <i class="fas fa-plus-circle bg-success text-xs"></i>
+                                
+
+                                <div class="timeline-item">
+                                    <span class="time"><i class="fas fa-clock"></i> 1 month, 1 week ago</span>
+                                    <h3 class="timeline-header no-border">
+                                        
+                                            <a href="/admin/MasterModels/paciente/1/change/">Alonso, Marcelo, 22301759</a>
+                                        
+
+                                        
+                                    </h3>
+                                    
+                                        <div class="timeline-body">
+                                            
+                                                Added “Alonso, Marcelo, 22301759”.
+                                            
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div>
+                                
+                                    <i class="fas fa-plus-circle bg-success text-xs"></i>
+                                
+
+                                <div class="timeline-item">
+                                    <span class="time"><i class="fas fa-clock"></i> 1 month, 1 week ago</span>
+                                    <h3 class="timeline-header no-border">
+                                        
+                                            <a href="/admin/MasterModels/profesionaldocumento/3/change/">Marcelo, Matricula Nacional, 64234, 2025-03-17</a>
+                                        
+
+                                        
+                                    </h3>
+                                    
+                                        <div class="timeline-body">
+                                            
+                                                Added “Marcelo, Matricula Nacional, 64234, 2025-03-17”.
+                                            
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div>
+                                
+                                    <i class="fas fa-plus-circle bg-success text-xs"></i>
+                                
+
+                                <div class="timeline-item">
+                                    <span class="time"><i class="fas fa-clock"></i> 1 month, 1 week ago</span>
+                                    <h3 class="timeline-header no-border">
+                                        
+                                            <a href="/admin/MasterModels/profesionaldocumento/2/change/">Marcelo, Matricula Provincial, 33212, 2025-03-17</a>
+                                        
+
+                                        
+                                    </h3>
+                                    
+                                        <div class="timeline-body">
+                                            
+                                                Added “Marcelo, Matricula Provincial, 33212, 2025-03-17”.
+                                            
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        
+                        <div>
+                            <i class="fa fa-clock bg-gray"></i>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+
+        
+    </div>
+
+
+    
+        <footer class="main-footer ">
+            <div class="float-right d-none d-sm-inline">
+                <b>Jazzmin version</b> 3.0.1
+            </div>
+            
+                <strong>Copyright &copy; 2025 .</strong> All rights reserved.
+            
+        </footer>
+        
+    
+
+
+</div>
+
+
+
+<!-- jQuery -->
+<script src="/static/admin/js/vendor/jquery/jquery.js"></script>
+<!-- Bootstrap 4 -->
+<script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- AdminLTE App -->
+<script src="/static/vendor/adminlte/js/adminlte.min.js"></script>
+<!-- Django customisations -->
+<script src="/static/jazzmin/js/main.js"></script>
+
+
+
+
+
+
+
+</body>
+</html>
+
+INFO - 2025-04-25 06:47:48,574 - basehttp - "GET /admin/ HTTP/1.1" 200 57862
+INFO - 2025-04-25 06:47:48,607 - basehttp - "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO - 2025-04-25 06:47:48,641 - basehttp - "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0

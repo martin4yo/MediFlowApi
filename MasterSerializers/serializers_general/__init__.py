@@ -9,3 +9,8 @@ from .coberturaplan import CoberturaPlanSerializer
 from .practicaplan import PracticaPlanSerializer
 from .documento import DocumentoSerializer
 from .genero import GeneroSerializer
+from .tenant import (
+    TenantSerializer, TenantListSerializer, TenantCreateSerializer,
+    UsuarioTenantSerializer, AsignarUsuarioTenantSerializer,
+    TenantEstadisticasSerializer, CentroTenantSerializer
+)

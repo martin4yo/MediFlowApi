@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(python manage.py:*)",
+      "Bash(sc query:*)",
+      "Bash(python:*)",
+      "Bash(rm:*)",
+      "Bash(del db.sqlite3)",
+      "Bash(find:*)",
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "Bash(timeout:*)"
+    ],
+    "deny": []
+  }
+}

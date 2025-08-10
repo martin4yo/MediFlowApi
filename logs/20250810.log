@@ -1,0 +1,178 @@
+INFO - 2025-08-10 00:56:53,240 - middlewares - [2025-08-10 00:56:53.240648] OPTIONS /api/general/tenant/ - IP: 127.0.0.1
+INFO - 2025-08-10 00:56:53,241 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT': '*/*', 'HTTP_ACCESS_CONTROL_REQUEST_METHOD': 'GET', 'HTTP_ACCESS_CONTROL_REQUEST_HEADERS': 'authorization', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 00:56:53,242 - middlewares - Request Body: None
+INFO - 2025-08-10 00:56:53,241 - middlewares - [2025-08-10 00:56:53.241648] OPTIONS /api/general/tenant/estadisticas/ - IP: 127.0.0.1
+INFO - 2025-08-10 00:56:53,243 - middlewares - [2025-08-10 00:56:53.243651] Respuesta OPTIONS /api/general/tenant/ - Status: 200
+INFO - 2025-08-10 00:56:53,253 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT': '*/*', 'HTTP_ACCESS_CONTROL_REQUEST_METHOD': 'GET', 'HTTP_ACCESS_CONTROL_REQUEST_HEADERS': 'authorization', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 00:56:53,253 - middlewares - Response Body: 
+INFO - 2025-08-10 00:56:53,254 - middlewares - [2025-08-10 00:56:53.254651] OPTIONS /api/general/tenant/ - IP: 127.0.0.1
+INFO - 2025-08-10 00:56:53,255 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT': '*/*', 'HTTP_ACCESS_CONTROL_REQUEST_METHOD': 'GET', 'HTTP_ACCESS_CONTROL_REQUEST_HEADERS': 'authorization', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 00:56:53,255 - middlewares - Request Body: None
+INFO - 2025-08-10 00:56:53,254 - middlewares - Request Body: None
+INFO - 2025-08-10 00:56:53,255 - middlewares - [2025-08-10 00:56:53.255648] OPTIONS /api/general/tenant/estadisticas/ - IP: 127.0.0.1
+INFO - 2025-08-10 00:56:53,256 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT': '*/*', 'HTTP_ACCESS_CONTROL_REQUEST_METHOD': 'GET', 'HTTP_ACCESS_CONTROL_REQUEST_HEADERS': 'authorization', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 00:56:53,256 - middlewares - Request Body: None
+INFO - 2025-08-10 00:56:53,257 - middlewares - [2025-08-10 00:56:53.257649] Respuesta OPTIONS /api/general/tenant/estadisticas/ - Status: 200
+INFO - 2025-08-10 00:56:53,257 - middlewares - Response Body: 
+INFO - 2025-08-10 00:56:53,255 - basehttp - "OPTIONS /api/general/tenant/ HTTP/1.1" 200 0
+INFO - 2025-08-10 00:56:53,255 - middlewares - [2025-08-10 00:56:53.255648] Respuesta OPTIONS /api/general/tenant/ - Status: 200
+INFO - 2025-08-10 00:56:53,256 - middlewares - [2025-08-10 00:56:53.256648] Respuesta OPTIONS /api/general/tenant/estadisticas/ - Status: 200
+INFO - 2025-08-10 00:56:53,258 - middlewares - Response Body: 
+INFO - 2025-08-10 00:56:53,258 - middlewares - Response Body: 
+INFO - 2025-08-10 00:56:53,258 - basehttp - "OPTIONS /api/general/tenant/estadisticas/ HTTP/1.1" 200 0
+INFO - 2025-08-10 00:56:53,258 - middlewares - [2025-08-10 00:56:53.258650] GET /api/general/tenant/ - IP: 127.0.0.1
+INFO - 2025-08-10 00:56:53,260 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754796917629', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 00:56:53,260 - middlewares - [2025-08-10 00:56:53.259652] GET /api/general/tenant/estadisticas/ - IP: 127.0.0.1
+INFO - 2025-08-10 00:56:53,259 - basehttp - "OPTIONS /api/general/tenant/estadisticas/ HTTP/1.1" 200 0
+INFO - 2025-08-10 00:56:53,260 - basehttp - "OPTIONS /api/general/tenant/ HTTP/1.1" 200 0
+INFO - 2025-08-10 00:56:53,260 - middlewares - Request Body: None
+INFO - 2025-08-10 00:56:53,260 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754796917629', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 00:56:53,260 - middlewares - Request Body: None
+INFO - 2025-08-10 00:56:53,314 - middlewares - [2025-08-10 00:56:53.314788] Respuesta GET /api/general/tenant/ - Status: 401
+INFO - 2025-08-10 00:56:53,314 - middlewares - [2025-08-10 00:56:53.314788] Respuesta GET /api/general/tenant/estadisticas/ - Status: 401
+INFO - 2025-08-10 00:56:53,314 - middlewares - Response Body: {'detail': 'Invalid token.'}
+INFO - 2025-08-10 00:56:53,314 - middlewares - Response Body: {'detail': 'Invalid token.'}
+WARNING - 2025-08-10 00:56:53,315 - log - Unauthorized: /api/general/tenant/estadisticas/
+WARNING - 2025-08-10 00:56:53,315 - log - Unauthorized: /api/general/tenant/
+WARNING - 2025-08-10 00:56:53,315 - basehttp - "GET /api/general/tenant/estadisticas/ HTTP/1.1" 401 27
+WARNING - 2025-08-10 00:56:53,315 - basehttp - "GET /api/general/tenant/ HTTP/1.1" 401 27
+INFO - 2025-08-10 00:56:53,317 - middlewares - [2025-08-10 00:56:53.317790] GET /api/general/tenant/estadisticas/ - IP: 127.0.0.1
+INFO - 2025-08-10 00:56:53,318 - middlewares - [2025-08-10 00:56:53.318789] GET /api/general/tenant/ - IP: 127.0.0.1
+INFO - 2025-08-10 00:56:53,318 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754796917629', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 00:56:53,318 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754796917629', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 00:56:53,318 - middlewares - Request Body: None
+INFO - 2025-08-10 00:56:53,318 - middlewares - Request Body: None
+INFO - 2025-08-10 00:56:53,324 - middlewares - [2025-08-10 00:56:53.324788] Respuesta GET /api/general/tenant/estadisticas/ - Status: 401
+INFO - 2025-08-10 00:56:53,324 - middlewares - Response Body: {'detail': 'Invalid token.'}
+WARNING - 2025-08-10 00:56:53,324 - log - Unauthorized: /api/general/tenant/estadisticas/
+INFO - 2025-08-10 00:56:53,325 - middlewares - [2025-08-10 00:56:53.325788] Respuesta GET /api/general/tenant/ - Status: 401
+INFO - 2025-08-10 00:56:53,325 - middlewares - Response Body: {'detail': 'Invalid token.'}
+WARNING - 2025-08-10 00:56:53,325 - log - Unauthorized: /api/general/tenant/
+WARNING - 2025-08-10 00:56:53,326 - basehttp - "GET /api/general/tenant/ HTTP/1.1" 401 27
+WARNING - 2025-08-10 00:56:53,326 - basehttp - "GET /api/general/tenant/estadisticas/ HTTP/1.1" 401 27
+INFO - 2025-08-10 00:58:49,730 - middlewares - [2025-08-10 00:58:49.730717] GET /api/general/tenant/ - IP: 127.0.0.1
+INFO - 2025-08-10 00:58:49,731 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754798217504', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 00:58:49,731 - middlewares - [2025-08-10 00:58:49.731717] GET /api/general/tenant/estadisticas/ - IP: 127.0.0.1
+INFO - 2025-08-10 00:58:49,731 - middlewares - Request Body: None
+INFO - 2025-08-10 00:58:49,731 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754798217504', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 00:58:49,733 - middlewares - Request Body: None
+INFO - 2025-08-10 00:58:49,737 - middlewares - [2025-08-10 00:58:49.737737] Respuesta GET /api/general/tenant/ - Status: 401
+INFO - 2025-08-10 00:58:49,737 - middlewares - Response Body: {'detail': 'Invalid token.'}
+WARNING - 2025-08-10 00:58:49,737 - log - Unauthorized: /api/general/tenant/
+INFO - 2025-08-10 00:58:49,738 - middlewares - [2025-08-10 00:58:49.738717] Respuesta GET /api/general/tenant/estadisticas/ - Status: 401
+INFO - 2025-08-10 00:58:49,738 - middlewares - Response Body: {'detail': 'Invalid token.'}
+WARNING - 2025-08-10 00:58:49,738 - log - Unauthorized: /api/general/tenant/estadisticas/
+WARNING - 2025-08-10 00:58:49,738 - basehttp - "GET /api/general/tenant/ HTTP/1.1" 401 27
+WARNING - 2025-08-10 00:58:49,738 - basehttp - "GET /api/general/tenant/estadisticas/ HTTP/1.1" 401 27
+INFO - 2025-08-10 00:58:49,739 - middlewares - [2025-08-10 00:58:49.739716] GET /api/general/tenant/ - IP: 127.0.0.1
+INFO - 2025-08-10 00:58:49,740 - middlewares - [2025-08-10 00:58:49.739716] GET /api/general/tenant/estadisticas/ - IP: 127.0.0.1
+INFO - 2025-08-10 00:58:49,740 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754798217504', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 00:58:49,740 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754798217504', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 00:58:49,740 - middlewares - Request Body: None
+INFO - 2025-08-10 00:58:49,740 - middlewares - Request Body: None
+INFO - 2025-08-10 00:58:49,745 - middlewares - [2025-08-10 00:58:49.745717] Respuesta GET /api/general/tenant/ - Status: 401
+INFO - 2025-08-10 00:58:49,745 - middlewares - Response Body: {'detail': 'Invalid token.'}
+WARNING - 2025-08-10 00:58:49,745 - log - Unauthorized: /api/general/tenant/
+INFO - 2025-08-10 00:58:49,746 - middlewares - [2025-08-10 00:58:49.746718] Respuesta GET /api/general/tenant/estadisticas/ - Status: 401
+INFO - 2025-08-10 00:58:49,746 - middlewares - Response Body: {'detail': 'Invalid token.'}
+WARNING - 2025-08-10 00:58:49,746 - log - Unauthorized: /api/general/tenant/estadisticas/
+WARNING - 2025-08-10 00:58:49,746 - basehttp - "GET /api/general/tenant/ HTTP/1.1" 401 27
+WARNING - 2025-08-10 00:58:49,747 - basehttp - "GET /api/general/tenant/estadisticas/ HTTP/1.1" 401 27
+INFO - 2025-08-10 00:58:58,029 - middlewares - [2025-08-10 00:58:58.029642] GET /api/general/tenant/ - IP: 127.0.0.1
+INFO - 2025-08-10 00:58:58,030 - middlewares - [2025-08-10 00:58:58.030740] GET /api/general/tenant/estadisticas/ - IP: 127.0.0.1
+INFO - 2025-08-10 00:58:58,030 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754798334406', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 00:58:58,030 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754798334406', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 00:58:58,030 - middlewares - Request Body: None
+INFO - 2025-08-10 00:58:58,030 - middlewares - Request Body: None
+INFO - 2025-08-10 00:58:58,035 - middlewares - [2025-08-10 00:58:58.035643] Respuesta GET /api/general/tenant/estadisticas/ - Status: 401
+INFO - 2025-08-10 00:58:58,037 - middlewares - [2025-08-10 00:58:58.037239] Respuesta GET /api/general/tenant/ - Status: 401
+INFO - 2025-08-10 00:58:58,037 - middlewares - Response Body: {'detail': 'Invalid token.'}
+INFO - 2025-08-10 00:58:58,037 - middlewares - Response Body: {'detail': 'Invalid token.'}
+WARNING - 2025-08-10 00:58:58,037 - log - Unauthorized: /api/general/tenant/
+WARNING - 2025-08-10 00:58:58,037 - log - Unauthorized: /api/general/tenant/estadisticas/
+WARNING - 2025-08-10 00:58:58,038 - basehttp - "GET /api/general/tenant/estadisticas/ HTTP/1.1" 401 27
+WARNING - 2025-08-10 00:58:58,038 - basehttp - "GET /api/general/tenant/ HTTP/1.1" 401 27
+INFO - 2025-08-10 00:58:58,040 - middlewares - [2025-08-10 00:58:58.040252] GET /api/general/tenant/estadisticas/ - IP: 127.0.0.1
+INFO - 2025-08-10 00:58:58,040 - middlewares - [2025-08-10 00:58:58.040252] GET /api/general/tenant/ - IP: 127.0.0.1
+INFO - 2025-08-10 00:58:58,040 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754798334406', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 00:58:58,041 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754798334406', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 00:58:58,041 - middlewares - Request Body: None
+INFO - 2025-08-10 00:58:58,041 - middlewares - Request Body: None
+INFO - 2025-08-10 00:58:58,046 - middlewares - [2025-08-10 00:58:58.046264] Respuesta GET /api/general/tenant/ - Status: 401
+INFO - 2025-08-10 00:58:58,047 - middlewares - [2025-08-10 00:58:58.047250] Respuesta GET /api/general/tenant/estadisticas/ - Status: 401
+INFO - 2025-08-10 00:58:58,047 - middlewares - Response Body: {'detail': 'Invalid token.'}
+INFO - 2025-08-10 00:58:58,047 - middlewares - Response Body: {'detail': 'Invalid token.'}
+WARNING - 2025-08-10 00:58:58,047 - log - Unauthorized: /api/general/tenant/
+WARNING - 2025-08-10 00:58:58,047 - log - Unauthorized: /api/general/tenant/estadisticas/
+WARNING - 2025-08-10 00:58:58,047 - basehttp - "GET /api/general/tenant/ HTTP/1.1" 401 27
+WARNING - 2025-08-10 00:58:58,048 - basehttp - "GET /api/general/tenant/estadisticas/ HTTP/1.1" 401 27
+INFO - 2025-08-10 01:05:54,256 - middlewares - [2025-08-10 01:05:54.256210] GET /api/general/tenant/ - IP: 127.0.0.1
+INFO - 2025-08-10 01:05:54,256 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754798748988', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 01:05:54,257 - middlewares - Request Body: None
+INFO - 2025-08-10 01:05:54,259 - middlewares - [2025-08-10 01:05:54.258214] GET /api/general/tenant/estadisticas/ - IP: 127.0.0.1
+INFO - 2025-08-10 01:05:54,259 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754798748988', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 01:05:54,259 - middlewares - Request Body: None
+INFO - 2025-08-10 01:05:54,262 - middlewares - [2025-08-10 01:05:54.262248] Respuesta GET /api/general/tenant/ - Status: 401
+INFO - 2025-08-10 01:05:54,262 - middlewares - Response Body: {'detail': 'Invalid token.'}
+WARNING - 2025-08-10 01:05:54,262 - log - Unauthorized: /api/general/tenant/
+INFO - 2025-08-10 01:05:54,262 - middlewares - [2025-08-10 01:05:54.262248] Respuesta GET /api/general/tenant/estadisticas/ - Status: 401
+INFO - 2025-08-10 01:05:54,262 - middlewares - Response Body: {'detail': 'Invalid token.'}
+WARNING - 2025-08-10 01:05:54,263 - log - Unauthorized: /api/general/tenant/estadisticas/
+WARNING - 2025-08-10 01:05:54,263 - basehttp - "GET /api/general/tenant/ HTTP/1.1" 401 27
+WARNING - 2025-08-10 01:05:54,263 - basehttp - "GET /api/general/tenant/estadisticas/ HTTP/1.1" 401 27
+INFO - 2025-08-10 01:05:54,264 - middlewares - [2025-08-10 01:05:54.264211] GET /api/general/tenant/ - IP: 127.0.0.1
+INFO - 2025-08-10 01:05:54,264 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754798748988', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 01:05:54,265 - middlewares - [2025-08-10 01:05:54.265211] GET /api/general/tenant/estadisticas/ - IP: 127.0.0.1
+INFO - 2025-08-10 01:05:54,265 - middlewares - Request Body: None
+INFO - 2025-08-10 01:05:54,265 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754798748988', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 01:05:54,267 - middlewares - Request Body: None
+INFO - 2025-08-10 01:05:54,271 - middlewares - [2025-08-10 01:05:54.271212] Respuesta GET /api/general/tenant/estadisticas/ - Status: 401
+INFO - 2025-08-10 01:05:54,272 - middlewares - [2025-08-10 01:05:54.272212] Respuesta GET /api/general/tenant/ - Status: 401
+INFO - 2025-08-10 01:05:54,272 - middlewares - Response Body: {'detail': 'Invalid token.'}
+INFO - 2025-08-10 01:05:54,272 - middlewares - Response Body: {'detail': 'Invalid token.'}
+WARNING - 2025-08-10 01:05:54,272 - log - Unauthorized: /api/general/tenant/estadisticas/
+WARNING - 2025-08-10 01:05:54,273 - log - Unauthorized: /api/general/tenant/
+WARNING - 2025-08-10 01:05:54,273 - basehttp - "GET /api/general/tenant/ HTTP/1.1" 401 27
+WARNING - 2025-08-10 01:05:54,273 - basehttp - "GET /api/general/tenant/estadisticas/ HTTP/1.1" 401 27
+INFO - 2025-08-10 01:06:07,862 - middlewares - [2025-08-10 01:06:07.862012] GET /api/general/tenant/estadisticas/ - IP: 127.0.0.1
+INFO - 2025-08-10 01:06:07,862 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754798758877', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 01:06:07,862 - middlewares - [2025-08-10 01:06:07.862012] GET /api/general/tenant/ - IP: 127.0.0.1
+INFO - 2025-08-10 01:06:07,862 - middlewares - Request Body: None
+INFO - 2025-08-10 01:06:07,862 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754798758877', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 01:06:07,862 - middlewares - Request Body: None
+INFO - 2025-08-10 01:06:07,866 - middlewares - [2025-08-10 01:06:07.866947] Respuesta GET /api/general/tenant/estadisticas/ - Status: 401
+INFO - 2025-08-10 01:06:07,866 - middlewares - Response Body: {'detail': 'Invalid token.'}
+WARNING - 2025-08-10 01:06:07,867 - log - Unauthorized: /api/general/tenant/estadisticas/
+INFO - 2025-08-10 01:06:07,867 - middlewares - [2025-08-10 01:06:07.867961] Respuesta GET /api/general/tenant/ - Status: 401
+INFO - 2025-08-10 01:06:07,867 - middlewares - Response Body: {'detail': 'Invalid token.'}
+WARNING - 2025-08-10 01:06:07,867 - log - Unauthorized: /api/general/tenant/
+WARNING - 2025-08-10 01:06:07,868 - basehttp - "GET /api/general/tenant/estadisticas/ HTTP/1.1" 401 27
+WARNING - 2025-08-10 01:06:07,868 - basehttp - "GET /api/general/tenant/ HTTP/1.1" 401 27
+INFO - 2025-08-10 01:06:07,869 - middlewares - [2025-08-10 01:06:07.869945] GET /api/general/tenant/estadisticas/ - IP: 127.0.0.1
+INFO - 2025-08-10 01:06:07,869 - middlewares - [2025-08-10 01:06:07.869945] GET /api/general/tenant/ - IP: 127.0.0.1
+INFO - 2025-08-10 01:06:07,869 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754798758877', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 01:06:07,869 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754798758877', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 01:06:07,869 - middlewares - Request Body: None
+INFO - 2025-08-10 01:06:07,869 - middlewares - Request Body: None
+INFO - 2025-08-10 01:06:07,874 - middlewares - [2025-08-10 01:06:07.874944] Respuesta GET /api/general/tenant/estadisticas/ - Status: 401
+INFO - 2025-08-10 01:06:07,874 - middlewares - Response Body: {'detail': 'Invalid token.'}
+WARNING - 2025-08-10 01:06:07,874 - log - Unauthorized: /api/general/tenant/estadisticas/
+INFO - 2025-08-10 01:06:07,875 - middlewares - [2025-08-10 01:06:07.875946] Respuesta GET /api/general/tenant/ - Status: 401
+INFO - 2025-08-10 01:06:07,875 - middlewares - Response Body: {'detail': 'Invalid token.'}
+WARNING - 2025-08-10 01:06:07,875 - log - Unauthorized: /api/general/tenant/
+WARNING - 2025-08-10 01:06:07,875 - basehttp - "GET /api/general/tenant/estadisticas/ HTTP/1.1" 401 27
+WARNING - 2025-08-10 01:06:07,875 - basehttp - "GET /api/general/tenant/ HTTP/1.1" 401 27
+INFO - 2025-08-10 01:09:11,780 - middlewares - [2025-08-10 01:09:11.780192] GET /api/general/tenant/ - IP: 127.0.0.1
+INFO - 2025-08-10 01:09:11,780 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754798948437', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 01:09:11,780 - middlewares - Request Body: None
+INFO - 2025-08-10 01:09:11,784 - middlewares - [2025-08-10 01:09:11.784281] Respuesta GET /api/general/tenant/ - Status: 401
+INFO - 2025-08-10 01:09:11,784 - middlewares - Response Body: {'detail': 'Invalid token.'}
+WARNING - 2025-08-10 01:09:11,784 - log - Unauthorized: /api/general/tenant/
+WARNING - 2025-08-10 01:09:11,785 - basehttp - "GET /api/general/tenant/ HTTP/1.1" 401 27
+INFO - 2025-08-10 01:09:11,786 - middlewares - [2025-08-10 01:09:11.786190] GET /api/general/tenant/ - IP: 127.0.0.1
+INFO - 2025-08-10 01:09:11,786 - middlewares - Headers: {'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_SEC_CH_UA_PLATFORM': '"Windows"', 'HTTP_AUTHORIZATION': 'Token mock_token_1754798948437', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36', 'HTTP_ACCEPT': 'application/json, text/plain, */*', 'HTTP_SEC_CH_UA': '"Not;A=Brand";v="99", "Brave";v="139", "Chromium";v="139"', 'HTTP_SEC_CH_UA_MOBILE': '?0', 'HTTP_SEC_GPC': '1', 'HTTP_ORIGIN': 'http://localhost:3000', 'HTTP_SEC_FETCH_SITE': 'cross-site', 'HTTP_SEC_FETCH_MODE': 'cors', 'HTTP_SEC_FETCH_DEST': 'empty', 'HTTP_REFERER': 'http://localhost:3000/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br, zstd', 'HTTP_ACCEPT_LANGUAGE': 'es-ES,es;q=0.9'}
+INFO - 2025-08-10 01:09:11,786 - middlewares - Request Body: None
+INFO - 2025-08-10 01:09:11,789 - middlewares - [2025-08-10 01:09:11.789190] Respuesta GET /api/general/tenant/ - Status: 401
+INFO - 2025-08-10 01:09:11,789 - middlewares - Response Body: {'detail': 'Invalid token.'}
+WARNING - 2025-08-10 01:09:11,789 - log - Unauthorized: /api/general/tenant/
+WARNING - 2025-08-10 01:09:11,789 - basehttp - "GET /api/general/tenant/ HTTP/1.1" 401 27

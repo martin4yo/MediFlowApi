@@ -9,3 +9,4 @@ from .coberturaplan import CoberturaPlanViewSet
 from .practicaplan import PracticaPlanViewSet
 from .documento import DocumentoViewSet
 from .genero import GeneroViewSet
+from .tenant import TenantViewSet, UsuarioTenantViewSet

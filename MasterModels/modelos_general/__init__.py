@@ -1,4 +1,4 @@
-# Importa todos los modulos 
+# Modelos generales
 from .persona import Persona
 from .centro import Centro
 from .especialidad import Especialidad
@@ -9,3 +9,5 @@ from .coberturaplan import CoberturaPlan
 from .practicaplan import PracticaPlan
 from .documento import Documento
 from .genero import Genero
+from .tenant import Tenant
+from .usuario_tenant import UsuarioTenant
